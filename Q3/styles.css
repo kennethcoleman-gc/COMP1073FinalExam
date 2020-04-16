@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#cats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.buttonDiv{
+    justify-content: center;
+}
+button{
+    margin: auto;
+    color: whitesmoke;
+    font-family: "Fira Code Light", cursive;
+    font-size: xx-large;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+button:hover{
+    font-weight: bolder;
+}
+
+button:active{
+    background-color: white;
+    color: black;
+}
